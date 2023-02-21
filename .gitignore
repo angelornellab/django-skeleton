@@ -1,0 +1,6 @@
+.env
+.idea
+__pycache__/
+*/__pycache__/
+logs/*
+docker-compose.yaml
