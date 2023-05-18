@@ -36,6 +36,7 @@ Para correr las migraciones y crear un superusuario en el contenedor de Django, 
 3. Ejecuta los siguientes comandos dentro del contenedor:
     ```
     python3 manage.py makemigrations
+    python3 manage.py migrate
     python3 manage.py createsuperuser --no-input
     ```
     
